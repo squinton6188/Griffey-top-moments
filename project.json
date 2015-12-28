@@ -1,0 +1,20 @@
+{
+  "s3": {
+    "stage": {
+      "bucket": "apps-stage.seattletimesdata.com",
+      "path": "sports-slider"
+    },
+    "live": {
+      "bucket": "projects.seattletimes.com",
+      "path": "2015/sports/Griffey-top-moments"
+    }
+  },
+  "title": "",
+  "description": "",
+  "url": "http://projects.seattletimes.com/2015/sports/Griffey-top-moments/",
+  "slug": "",
+  "tags": ["interactive", "parallax"],
+  "image": "",
+  "production": false,
+  "sheets": ["1Q0YB7RUOFzg2bG5dATEmFJ8XeuNtYXb8KOsPk8X2rME"]
+}

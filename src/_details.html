@@ -4,9 +4,16 @@
     <h3 class="rank"><sup>#</sup><%= item.rank %>: <%= item.name %></h3>
 
     <div class="copy">
-      <h2>SUBHEAD</h2>
-      <p><%= item.chatter %>
-      
+    <h2><%= item.subhead %></h2>
+      <p><%= item.chatter %><p>
+
+        <p><a href="<%= item.url %>"><%= item.linktext %></a></p>
+
+              <p><% if (item.youtube) { %>
+                <iframe src="https://www.youtube.com/embed/<%= item.youtube %>" frameborder="0" allowfullscreen></iframe>
+              <% } %></p>
+
+
     </div>
     <div class="credit">
       Photo by <%= item.credit %>

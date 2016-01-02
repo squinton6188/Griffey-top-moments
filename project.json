@@ -2,19 +2,19 @@
   "s3": {
     "stage": {
       "bucket": "apps-stage.seattletimesdata.com",
-      "path": "sports-slider"
+      "path": "griffey-top-moments"
     },
     "live": {
       "bucket": "projects.seattletimes.com",
       "path": "2015/sports/Griffey-top-moments"
     }
   },
-  "title": "",
-  "description": "",
+  "title": "Top 10 Ken Griffey Jr. moments in Seattle",
+  "description": "For 11 seasons from 1989-1999, and then another in 2009 (we’ll just pretend 2010 never happened), Marines fans could consider themselves lucky that they had a daily chance at seeing Ken Griffey Jr. do something incredible. Here are 10 moments that stood out in a soon-to-be Hall of Fame career.",
   "url": "http://projects.seattletimes.com/2015/sports/Griffey-top-moments/",
   "slug": "",
   "tags": ["interactive", "parallax"],
-  "image": "",
-  "production": false,
+  "image": "assets/GriffeyTop10_01.jpg",
+  "production": true,
   "sheets": ["1Q0YB7RUOFzg2bG5dATEmFJ8XeuNtYXb8KOsPk8X2rME"]
 }
